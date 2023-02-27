@@ -13,8 +13,8 @@ app.post("/", function(req, res){
     var a = Number(req.body.n1);
     var b = Number(req.body.n2);
 
-    var c = a + b; 
-
+    var c = a + b;
+    
     res.send("The result is " + c)
 })
 
